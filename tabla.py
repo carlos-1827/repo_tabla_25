@@ -15,5 +15,5 @@ class Tabla:
 if __name__ == "__main__":
     num_usuario = int(input("Introduce un Numero para ver la tabla: "))
     num_tabla = Tabla(num_usuario)
-    num_tabla.mostrarNormal()
+    num_tabla.mostrarNormal() 
     num_tabla.mostrarInvertida()
